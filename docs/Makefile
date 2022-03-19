@@ -10,7 +10,7 @@ deploy:
 	git checkout README.md
 	git checkout website
 	rm -rf docs && mv docs-new docs
-	git add docs
+	git add -f docs
 	git ci -m "update website"
 	git push
 	git checkout main
