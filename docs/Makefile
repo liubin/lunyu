@@ -18,5 +18,6 @@ deploy:
 pdf:
 	gitbook pdf
 preview:
-	$(call nvm,use,v10.24.0)
+	# $(call nvm,use,v10.24.0)
+	echo "Note: run `nvm use v10.24.0` first!"
 	gitbook serve
