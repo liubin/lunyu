@@ -4,7 +4,19 @@
 
 **Build At:** BUILD_DATE
 
+
 ## 环境设置
+
+安装 nvm
+
+```bash
+$ git clone https://github.com/nvm-sh/nvm.git ~/.nvm
+$ source ~/.nvm/nvm.sh
+$ nvm install v10.24.0
+
+$ npm install gitbook-cli -g
+$ gitbook install
+```
 
 使用 nvm 可以切换 npm 版本。
 
